@@ -1,0 +1,4 @@
+<properties>
+    <property id="cyclesCount" type="number">5</property>
+    <property id="cycleDuration" type="number">8</property>
+</properties>

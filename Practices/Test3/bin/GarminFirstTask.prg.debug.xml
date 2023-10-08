@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="1" lineNum="5" parent="globals/Test3App" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="2" lineNum="13" parent="globals/Test3App" pc="268435479" symbol="onStart"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="3" lineNum="21" parent="globals/Test3App" pc="268435482" symbol="getInitialView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="3" lineNum="22" parent="globals/Test3App" pc="268435484" symbol="getInitialView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="3" lineNum="23" parent="globals/Test3App" pc="268435518" symbol="getInitialView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="4" lineNum="8" parent="globals/Test3App" pc="268435575" symbol="initialize"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="4" lineNum="9" parent="globals/Test3App" pc="268435577" symbol="initialize"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="5" lineNum="26" parent="globals/Test3App" pc="268435596" symbol="getView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="5" lineNum="27" parent="globals/Test3App" pc="268435598" symbol="getView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="6" lineNum="17" parent="globals/Test3App" pc="268435607" symbol="onStop"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="7" lineNum="32" parent="globals" pc="268435610" symbol="getApp"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="7" lineNum="33" parent="globals" pc="268435620" symbol="getApp"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/bin/gen/006-B3290-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268435636" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="9" lineNum="4" parent="globals/Test3View" pc="268435660" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="10" lineNum="42" parent="globals/Test3View" pc="268435679" symbol="updateCyclesValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="10" lineNum="43" parent="globals/Test3View" pc="268435683" symbol="updateCyclesValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="10" lineNum="44" parent="globals/Test3View" pc="268435709" symbol="updateCyclesValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="10" lineNum="46" parent="globals/Test3View" pc="268435737" symbol="updateCyclesValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="10" lineNum="48" parent="globals/Test3View" pc="268435757" symbol="updateCyclesValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="12" lineNum="14" parent="globals/Test3View" pc="268435774" symbol="onLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="12" lineNum="15" parent="globals/Test3View" pc="268435776" symbol="onLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="12" lineNum="17" parent="globals/Test3View" pc="268435817" symbol="onLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="12" lineNum="18" parent="globals/Test3View" pc="268435841" symbol="onLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="12" lineNum="19" parent="globals/Test3View" pc="268435865" symbol="onLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="13" lineNum="9" parent="globals/Test3View" pc="268435890" symbol="initialize"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="13" lineNum="10" parent="globals/Test3View" pc="268435892" symbol="initialize"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="51" parent="globals/Test3View" pc="268435911" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="52" parent="globals/Test3View" pc="268435915" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="54" parent="globals/Test3View" pc="268435925" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="55" parent="globals/Test3View" pc="268435935" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="56" parent="globals/Test3View" pc="268435979" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="57" parent="globals/Test3View" pc="268436001" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="15" lineNum="58" parent="globals/Test3View" pc="268436021" symbol="setTimerValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="61" parent="globals/Test3View" pc="268436038" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="62" parent="globals/Test3View" pc="268436042" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="63" parent="globals/Test3View" pc="268436056" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="65" parent="globals/Test3View" pc="268436101" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="66" parent="globals/Test3View" pc="268436108" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="67" parent="globals/Test3View" pc="268436115" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="69" parent="globals/Test3View" pc="268436118" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="70" parent="globals/Test3View" pc="268436125" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="71" parent="globals/Test3View" pc="268436132" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="73" parent="globals/Test3View" pc="268436136" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="74" parent="globals/Test3View" pc="268436156" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="16" lineNum="75" parent="globals/Test3View" pc="268436176" symbol="setWaterTypeValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="17" lineNum="31" parent="globals/Test3View" pc="268436193" symbol="onUpdate"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3View.mc" id="17" lineNum="33" parent="globals/Test3View" pc="268436195" symbol="onUpdate"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="18" lineNum="4" parent="globals/Test3Delegate" pc="268436216" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="18" lineNum="15" parent="globals/Test3Delegate" pc="268436234" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="19" lineNum="30" parent="globals/Test3Delegate" pc="268436254" symbol="startCountdown"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="19" lineNum="31" parent="globals/Test3Delegate" pc="268436256" symbol="startCountdown"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="19" lineNum="33" parent="globals/Test3Delegate" pc="268436272" symbol="startCountdown"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="19" lineNum="34" parent="globals/Test3Delegate" pc="268436308" symbol="startCountdown"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="20" lineNum="37" parent="globals/Test3Delegate" pc="268436350" symbol="updateCountdownValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="20" lineNum="38" parent="globals/Test3Delegate" pc="268436352" symbol="updateCountdownValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="20" lineNum="39" parent="globals/Test3Delegate" pc="268436369" symbol="updateCountdownValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="20" lineNum="41" parent="globals/Test3Delegate" pc="268436390" symbol="updateCountdownValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="20" lineNum="42" parent="globals/Test3Delegate" pc="268436416" symbol="updateCountdownValue"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="21" lineNum="17" parent="globals/Test3Delegate" pc="268436436" symbol="initialize"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="21" lineNum="18" parent="globals/Test3Delegate" pc="268436438" symbol="initialize"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="22" lineNum="21" parent="globals/Test3Delegate" pc="268436457" symbol="onSelect"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="22" lineNum="22" parent="globals/Test3Delegate" pc="268436459" symbol="onSelect"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="22" lineNum="23" parent="globals/Test3Delegate" pc="268436473" symbol="onSelect"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="22" lineNum="24" parent="globals/Test3Delegate" pc="268436483" symbol="onSelect"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3Delegate.mc" id="22" lineNum="26" parent="globals/Test3Delegate" pc="268436498" symbol="onSelect"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="23" lineNum="36" parent="globals" pc="268436501" symbol="getView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/source/Test3App.mc" id="23" lineNum="37" parent="globals" pc="268436511" symbol="getView"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/bin/gen/006-B3290-00/source/Rez.mcgen" id="25" lineNum="19" parent="globals/Rez/Layouts" pc="268436536" symbol="MainLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/bin/gen/006-B3290-00/source/Rez.mcgen" id="25" lineNum="20" parent="globals/Rez/Layouts" pc="268436548" symbol="MainLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/bin/gen/006-B3290-00/source/Rez.mcgen" id="25" lineNum="22" parent="globals/Rez/Layouts" pc="268436660" symbol="MainLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/bin/gen/006-B3290-00/source/Rez.mcgen" id="25" lineNum="24" parent="globals/Rez/Layouts" pc="268436795" symbol="MainLayout"/>
+        <entry filename="/Users/piroova/Documents/Personal/Projects/Wearable/GarminFirstTask/bin/gen/006-B3290-00/source/Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268436907" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="30" symbol="&lt;globals/Test3Delegate/&lt;statics&gt;/&lt;&gt;cycleDuration&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="33" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="31" symbol="&lt;globals/Test3Delegate/&lt;statics&gt;/&lt;&gt;cycles&gt;"/>
+        <entry field="true" id="34" symbol="AppName"/>
+        <entry id="29" method="true" symbol="updateCountdownValue"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="13" object="true" symbol="WaterType"/>
+        <entry id="21" method="true" symbol="setWaterTypeValue"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="16" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="12" object="true" symbol="Test3View"/>
+        <entry id="10" object="true" symbol="Test3App"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="24" symbol="&lt;globals/Test3Delegate/&lt;&gt;_currentDuration&gt;"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="22" method="true" symbol="updateCyclesValue"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="11" object="true" symbol="Test3Delegate"/>
+        <entry id="28" method="true" symbol="startCountdown"/>
+        <entry field="true" id="25" symbol="&lt;globals/Test3Delegate/&lt;&gt;_inProgress&gt;"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="18" symbol="&lt;globals/Test3View/&lt;&gt;_cylclesLeftElement&gt;"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="26" symbol="&lt;globals/Test3Delegate/&lt;&gt;_timer&gt;"/>
+        <entry field="true" id="23" symbol="&lt;globals/Test3Delegate/&lt;&gt;_currentCycle&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="20" method="true" symbol="setTimerValue"/>
+        <entry id="9" module="true" symbol="globals/Test3Delegate/&lt;statics&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="19" symbol="&lt;globals/Test3View/&lt;&gt;_typeTitleElement&gt;"/>
+        <entry field="true" id="17" symbol="&lt;globals/Test3View/&lt;&gt;_currentTimerElement&gt;"/>
+        <entry field="true" id="14" symbol="&lt;globals/Test3App/&lt;&gt;_view&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/Test3Delegate/&lt;&gt;_view&gt;"/>
+        <entry id="15" module="true" symbol="Layouts"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8391945" method="true" symbol="getView"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435773" name="cycles" stackId="1" startPc="268435679"/>
+        <entry endPc="268435772" name="multipleSign" stackId="2" startPc="268435683"/>
+        <entry endPc="268435772" name="formattedValue" stackId="3" startPc="268435683"/>
+        <entry arg="true" endPc="268435889" name="dc" stackId="1" startPc="268435774"/>
+        <entry arg="true" endPc="268436037" name="value" stackId="1" startPc="268435911"/>
+        <entry endPc="268436036" name="minutes" stackId="2" startPc="268435915"/>
+        <entry endPc="268436036" name="seconds" stackId="3" startPc="268435915"/>
+        <entry endPc="268436036" name="secondsFormatted" stackId="4" startPc="268435915"/>
+        <entry endPc="268436036" name="formattedValue" stackId="5" startPc="268435915"/>
+        <entry arg="true" endPc="268436192" name="waterType" stackId="1" startPc="268436038"/>
+        <entry endPc="268436191" name="label" stackId="2" startPc="268436042"/>
+        <entry endPc="268436191" name="color" stackId="3" startPc="268436042"/>
+        <entry arg="true" endPc="268436215" name="dc" stackId="1" startPc="268436193"/>
+        <entry arg="true" endPc="268436943" name="dc" stackId="1" startPc="268436536"/>
+        <entry endPc="268436943" name="rez_cmp_local_text_type_title" stackId="2" startPc="268436548"/>
+        <entry endPc="268436943" name="rez_cmp_local_text_current_timer" stackId="3" startPc="268436548"/>
+        <entry endPc="268436943" name="rez_cmp_local_text_cylcles_left" stackId="4" startPc="268436548"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Test3App" offset="190" parentId="globals" symbolId="Test3App" type="class"/>
+        <dataEntry label="globals/Rez" offset="277" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Test3View" offset="356" parentId="globals" symbolId="Test3View" type="class"/>
+        <dataEntry label="globals/Test3Delegate" offset="483" parentId="globals" symbolId="Test3Delegate" type="class"/>
+        <dataEntry label="globals/Test3Delegate/&lt;statics&gt;" offset="594" parentId="Test3Delegate" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/WaterType" offset="649" parentId="globals" symbolId="WaterType" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="696" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="735" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="774" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="805" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="836" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="875" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="Test3App" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435481" name="onStart" parent="Test3App" startPc="268435479">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435574" name="getInitialView" parent="Test3App" startPc="268435482">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435595" name="initialize" parent="Test3App" startPc="268435575">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435606" name="getView" parent="Test3App" startPc="268435596">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435609" name="onStop" parent="Test3App" startPc="268435607">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435635" name="getApp" startPc="268435610">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435659" name="&lt;init&gt;" parent="Rez" startPc="268435636">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435678" name="&lt;init&gt;" parent="Test3View" startPc="268435660">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435773" name="updateCyclesValue" parent="Test3View" startPc="268435679">
+            <param id="cycles"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="Test3View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435889" name="onLayout" parent="Test3View" startPc="268435774">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435910" name="initialize" parent="Test3View" startPc="268435890">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="Test3View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436037" name="setTimerValue" parent="Test3View" startPc="268435911">
+            <param id="value"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436192" name="setWaterTypeValue" parent="Test3View" startPc="268436038">
+            <param id="waterType"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436215" name="onUpdate" parent="Test3View" startPc="268436193">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436253" name="&lt;init&gt;" parent="Test3Delegate" startPc="268436216">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Test3Delegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436349" name="startCountdown" parent="Test3Delegate" startPc="268436254">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436435" name="updateCountdownValue" parent="Test3Delegate" startPc="268436350">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436456" name="initialize" parent="Test3Delegate" startPc="268436436">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436500" name="onSelect" parent="Test3Delegate" startPc="268436457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436535" name="getView" startPc="268436501">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WaterType">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="WaterType">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436943" name="MainLayout" parent="Layouts" startPc="268436536">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

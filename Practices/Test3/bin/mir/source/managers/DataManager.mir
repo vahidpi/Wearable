@@ -1,0 +1,44 @@
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 3; ]
+class DataManager{
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 3; ]
+    function initialize() as Void {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 4; ]
+    static
+    function getCyclesCount() {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_managers_DataManager_mc_4_35_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc" 5 4 ]
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "cyclesCount";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_managers_DataManager_mc_4_35_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 12; ]
+    static
+    function getCycleDuration() {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_managers_DataManager_mc_12_37_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc" 13 4 ]
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv %tmp.1 :Properties;
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = "cycleDuration";
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        ret %tmp.5;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_managers_DataManager_mc_12_37_stop:
+    }
+}
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/managers/DataManager.mc"; @line = 1; ]
+<init> {
+}

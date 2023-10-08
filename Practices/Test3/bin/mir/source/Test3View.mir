@@ -1,0 +1,273 @@
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 4; ]
+class Test3View extends WatchUi.View{
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 5; @position = 16; ]
+    private
+    var _typeTitleElement;
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 6; @position = 16; ]
+    private
+    var _currentTimerElement;
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 7; @position = 16; ]
+    private
+    var _cylclesLeftElement;
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_9_26_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 10 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_9_26_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 14; ]
+    function onLayout(dc as Dc) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_14_40_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 15 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 17 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "type_title";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :_typeTitleElement %tmp.13;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 18 8 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :findDrawableById;
+        %tmp.16 = "current_timer";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        putv self :_currentTimerElement %tmp.17;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 19 8 ]
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :findDrawableById;
+        %tmp.20 = "cylcles_left";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        putv self :_cylclesLeftElement %tmp.21;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 22 8 ]
+        %tmp.22 = self;
+        %tmp.23 = getv function %tmp.22 :setTimerValue;
+        %tmp.25 = getv ? :DataManager;
+        %tmp.26 = getv function %tmp.25 :getCycleDuration;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        invoke %tmp.22 %tmp.23(%tmp.27);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 23 8 ]
+        %tmp.28 = self;
+        %tmp.29 = getv function %tmp.28 :updateCyclesValue;
+        %tmp.31 = getv ? :DataManager;
+        %tmp.32 = getv function %tmp.31 :getCyclesCount;
+        %tmp.33 = invoke %tmp.31 %tmp.32();
+        invoke %tmp.28 %tmp.29(%tmp.33);
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_14_40_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 29; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 33; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_33_40_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 35 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_33_40_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 41; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 44; ]
+    function updateCyclesValue(cycles) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_44_47_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 45 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_44_47_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_44_47_stop" ]
+        %multipleSign.1 = local;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_begin:
+        %tmp.2 = lgetv %cycles;
+        %tmp.3 = 1;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_false;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_true:
+        %tmp.5 = "";
+        push %tmp.5;
+        goto @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_end;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_false:
+        %tmp.6 = "s";
+        push %tmp.6;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_end:
+        %tmp.7 = phi [%tmp.4 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_begin] [%tmp.5 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_true] [%tmp.6 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_false] [%tmp.7 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_45_27_end];
+        lputv %multipleSign.1 %tmp.7;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 46 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_44_47_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_44_47_stop" ]
+        %formattedValue.2 = local;
+        %tmp.8 = lgetv %cycles;
+        %tmp.9 = getv function %tmp.8 :toString;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        %tmp.11 = " cycle";
+        %tmp.12 = add %tmp.10 %tmp.11;
+        %tmp.14 = lgetv %multipleSign.1;
+        %tmp.15 = add %tmp.12 %tmp.14;
+        %tmp.16 = " left";
+        %tmp.17 = add %tmp.15 %tmp.16;
+        lputv %formattedValue.2 %tmp.17;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 48 8 ]
+        %tmp.19 = getv ? :_cylclesLeftElement;
+        %tmp.20 = getv function %tmp.19 :setText;
+        %tmp.22 = lgetv %formattedValue.2;
+        invoke %tmp.19 %tmp.20(%tmp.22);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 50 8 ]
+        %tmp.23 = getm $.Toybox.WatchUi;
+        %tmp.24 = getv function %tmp.23 :requestUpdate;
+        invoke %tmp.23 %tmp.24();
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_44_47_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 53; ]
+    function setTimerValue(value) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 54 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_stop" ]
+        %minutes.1 = local;
+        %tmp.2 = lgetv %value;
+        %tmp.3 = 60;
+        %tmp.4 = div %tmp.2 %tmp.3;
+        lputv %minutes.1 %tmp.4;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 56 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_stop" ]
+        %seconds.2 = local;
+        %tmp.6 = lgetv %value;
+        %tmp.7 = 60;
+        %tmp.8 = mod %tmp.6 %tmp.7;
+        lputv %seconds.2 %tmp.8;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 57 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_stop" ]
+        %secondsFormatted.3 = local;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_begin:
+        %tmp.10 = lgetv %seconds.2;
+        %tmp.11 = 9;
+        %tmp.12 = gt %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_false;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_true:
+        %tmp.13 = lgetv %seconds.2;
+        %tmp.14 = getv function %tmp.13 :toString;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        push %tmp.15;
+        goto @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_end;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_false:
+        %tmp.16 = "0";
+        %tmp.17 = lgetv %seconds.2;
+        %tmp.18 = getv function %tmp.17 :toString;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = add %tmp.16 %tmp.19;
+        push %tmp.20;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_end:
+        %tmp.21 = phi [%tmp.12 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_begin] [%tmp.15 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_true] [%tmp.20 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_false] [%tmp.21 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_57_31_end];
+        lputv %secondsFormatted.3 %tmp.21;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 58 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_stop" ]
+        %formattedValue.4 = local;
+        %tmp.22 = lgetv %minutes.1;
+        %tmp.23 = getv function %tmp.22 :toString;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = ":";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.28 = lgetv %secondsFormatted.3;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        lputv %formattedValue.4 %tmp.29;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 59 8 ]
+        %tmp.31 = getv ? :_currentTimerElement;
+        %tmp.32 = getv function %tmp.31 :setText;
+        %tmp.34 = lgetv %formattedValue.4;
+        invoke %tmp.31 %tmp.32(%tmp.34);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 60 8 ]
+        %tmp.35 = getm $.Toybox.WatchUi;
+        %tmp.36 = getv function %tmp.35 :requestUpdate;
+        invoke %tmp.35 %tmp.36();
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_53_42_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 63; ]
+    function setWaterTypeValue(waterType as WaterType) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_63_63_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 64 8 ]
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_63_63_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_63_63_stop" ]
+        %label.1 = local;
+        %tmp.1 = " ";
+        lputv %label.1 %tmp.1;
+        [ "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_63_63_start" "_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_63_63_stop" ]
+        %color.2 = local;
+        %tmp.2 = " ";
+        lputv %color.2 %tmp.2;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 65 8 ]
+        %tmp.4 = lgetv %waterType;
+        push %tmp.4;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_65_8_switchCaseBegin:
+        %tmp.5 = dup %tmp.4;
+        %tmp.7 = getv ? :WaterType;
+        %tmp.8 = getv %tmp.7 :Hot;
+        %tmp.9 = getv function %tmp.5 :equals;
+        %tmp.10 = invoke %tmp.5 %tmp.9 (%tmp.8);
+        bt %tmp.10 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_66_12;
+        %tmp.11 = dup %tmp.4;
+        %tmp.13 = getv ? :WaterType;
+        %tmp.14 = getv %tmp.13 :Cold;
+        %tmp.15 = getv function %tmp.11 :equals;
+        %tmp.16 = invoke %tmp.11 %tmp.15 (%tmp.14);
+        bt %tmp.16 @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_70_12;
+        goto @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_65_8_defaultCodeBegin;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_66_12:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 67 16 ]
+        %tmp.17 = "HOT";
+        lputv %label.1 %tmp.17;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 68 16 ]
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_DK_RED;
+        lputv %color.2 %tmp.19;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 69 16 ]
+        goto @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_65_8_switchCaseEnd;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_70_12:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 71 16 ]
+        %tmp.20 = "COLD";
+        lputv %label.1 %tmp.20;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 72 16 ]
+        %tmp.21 = getm $.Toybox.Graphics;
+        %tmp.22 = getv %tmp.21 :COLOR_BLUE;
+        lputv %color.2 %tmp.22;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 73 16 ]
+        goto @_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_65_8_switchCaseEnd;
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_65_8_defaultCodeBegin:
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_65_8_switchCaseEnd:
+        pop;
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 75 8 ]
+        %tmp.24 = getv ? :_typeTitleElement;
+        %tmp.25 = getv function %tmp.24 :setText;
+        %tmp.27 = lgetv %label.1;
+        invoke %tmp.24 %tmp.25(%tmp.27);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 76 8 ]
+        %tmp.29 = getv ? :_typeTitleElement;
+        %tmp.30 = getv function %tmp.29 :setColor;
+        %tmp.32 = lgetv %color.2;
+        invoke %tmp.29 %tmp.30(%tmp.32);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc" 77 8 ]
+        %tmp.33 = getm $.Toybox.WatchUi;
+        %tmp.34 = getv function %tmp.33 :requestUpdate;
+        invoke %tmp.33 %tmp.34();
+_Users_piroova_Documents_Personal_Projects_Wearable_Test3_source_Test3View_mc_63_63_stop:
+    }
+}
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/Test3View.mc"; @line = 1; ]
+<init> {
+}

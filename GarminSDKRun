@@ -1,0 +1,19 @@
+Editor: VS Code
+
+Tut : https://www.youtube.com/watch?v=_sHBqQKpIZg
+
+Connect IQ SDK: https://developer.garmin.com/connect-iq/sdk/
+    Install the SDK Manager
+    Installing the Visual Studio Code Monkey C Extension
+    (and verify installation by selecting in cmd+shift+p)
+
+developer key:
+	cmd+shift+p, generate a developer key
+
+New Project
+    cmd+shift+p, Monkey C:new project
+        type: watch app
+    Monkey C: Edit Products
+Run:
+    Run on one of the mc files in /source
+    Run menu | Run without debugging

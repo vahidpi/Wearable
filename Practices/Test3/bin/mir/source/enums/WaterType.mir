@@ -1,0 +1,25 @@
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 1; ]
+class WaterType{
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 1; ]
+    function initialize() as Void {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 2; ]
+    enum {
+        [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 3; @position = 8; ]
+        Cold,
+        [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 4; @position = 8; ]
+        Hot,
+        [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 5; @position = 8; ]
+        Switch
+    }
+}
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Test3/source/enums/WaterType.mc"; @line = 1; ]
+<init> {
+}
