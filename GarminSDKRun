@@ -17,3 +17,10 @@ New Project
 Run:
     Run on one of the mc files in /source
     Run menu | Run without debugging
+
+Build and export app:
+    [https://developer.garmin.com/connect-iq/submit-an-app/]
+    --> Monkey C: Export Project // it creates iq file, to run on the Garmin watch prg file is needed.
+    Build prg file for garmin watch:
+    Monkey C: Build for device
+        and copy the prg file on the app file in Garmin watch, app will be appear in the apps by push app button on the watch. 

@@ -11,6 +11,7 @@ class WaterType{
     function initialize() as Void {
     }
     [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Test3/source/enums/WaterType.mc"; @line = 2; ]
+    static
     enum {
         [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Test3/source/enums/WaterType.mc"; @line = 3; @position = 8; ]
         Cold,
