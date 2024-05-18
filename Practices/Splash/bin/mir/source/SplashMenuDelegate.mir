@@ -1,0 +1,28 @@
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 5; ]
+class SplashMenuDelegate extends WatchUi.MenuInputDelegate{
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashMenuDelegate_mc_7_26_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :MenuInputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashMenuDelegate_mc_7_26_stop:
+    }
+}
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,4 @@
+<layout id="MainLayout">
+    <bitmap id="halfCourt" x="center" y="center" filename="../drawables/halfcourt16x163.png" />
+    <bitmap id="topKey" x="center" y="246" filename="../drawables/ball.png" />
+</layout>

@@ -1,0 +1,73 @@
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 4; @position = 4; ]
+var _topKey;
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 6; ]
+class SplashView extends WatchUi.View{
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_8_26_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc" 9 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc" 10 8 ]
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :findDrawableById;
+        %tmp.6 = "topKey";
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        putv self :_topKey %tmp.7;
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_8_26_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 14; ]
+    function onLayout(dc as Dc) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_14_40_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc" 15 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_14_40_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 21; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 25; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_25_40_start:
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc" 27 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc" 28 8 ]
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_28_8_if_stmt:
+        %tmp.7 = getv ? :position;
+        %tmp.8 = 3;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_28_8_if_end;
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_28_8_if_true:
+        goto @_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_28_8_if_end;
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_28_8_if_end:
+_Users_piroova_Documents_Personal_Projects_Wearable_Practices_Splash_source_SplashView_mc_25_40_stop:
+    }
+    [ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 36; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/Users/piroova/Documents/Personal/Projects/Wearable/Practices/Splash/source/SplashView.mc"; @line = 1; ]
+<init> {
+}
